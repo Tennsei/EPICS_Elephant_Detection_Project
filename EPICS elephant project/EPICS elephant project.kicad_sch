@@ -2263,131 +2263,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -2964,6 +2839,12 @@
 		(uuid "9c98eaf7-0343-490d-bae4-f722008b1006")
 	)
 	(junction
+		(at 80.01 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac83f478-2b70-4da9-b658-11d64397e84a")
+	)
+	(junction
 		(at 229.87 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3527,6 +3408,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 171.45) (xy 80.01 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786b3b68-a2c0-49b9-aacd-be8c97e6d4e6")
+	)
+	(wire
+		(pts
 			(xy 160.02 54.61) (xy 160.02 46.99)
 		)
 		(stroke
@@ -3664,6 +3555,16 @@
 			(type default)
 		)
 		(uuid "8e311729-f3bd-4cc5-a61d-e7bfe7685474")
+	)
+	(wire
+		(pts
+			(xy 80.01 171.45) (xy 129.54 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e561e8a-f2b4-4439-bea4-7f299a1dd618")
 	)
 	(wire
 		(pts
@@ -3967,6 +3868,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 171.45) (xy 129.54 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d408c893-dd99-4470-988c-31437c9eb67b")
+	)
+	(wire
+		(pts
 			(xy 16.51 85.09) (xy 16.51 87.63)
 		)
 		(stroke
@@ -4251,7 +4162,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 127.9652 167.64 0)
 			(effects
 				(font
@@ -4320,7 +4231,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 160.9852 68.58 0)
 			(effects
 				(font
@@ -4357,72 +4268,6 @@
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 59.69 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1444cbc1-a41b-4f98-aa28-7bc76054bebd")
-		(property "Reference" "#PWR016"
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 59.69 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e4bf7aaf-e517-4bbc-abc1-fce447ed7131")
-		)
-		(instances
-			(project ""
-				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -5073,72 +4918,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 80.01 171.45 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3d871dd5-0372-449b-a77b-6619bc6aea9a")
-		(property "Reference" "#PWR018"
-			(at 80.01 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 80.01 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 80.01 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23c4eab7-97ce-434f-acee-c05be3095f82")
-		)
-		(instances
-			(project "EPICS elephant project"
-				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 36.83 196.85 90)
 		(unit 1)
@@ -5164,7 +4943,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 40.64 195.8848 0)
 			(effects
 				(font
@@ -5216,7 +4995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "411f0eb2-c848-41b2-9f20-acc6bd1c48e9")
-		(property "Reference" "R8"
+		(property "Reference" "R10"
 			(at 165.1 17.78 90)
 			(effects
 				(font
@@ -5232,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 165.1 25.908 90)
 			(effects
 				(font
@@ -5268,7 +5047,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R8")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -5350,7 +5129,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46f4ba78-3630-4f93-a54e-ecd9b5dcd54a")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 232.41 91.4399 0)
 			(effects
 				(font
@@ -5368,7 +5147,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 231.648 92.71 90)
 			(effects
 				(font
@@ -5404,7 +5183,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5438,7 +5217,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 57.912 184.15 90)
 			(effects
 				(font
@@ -5508,7 +5287,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 139.3952 167.64 0)
 			(effects
 				(font
@@ -5643,7 +5422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 144.4752 68.58 0)
 			(effects
 				(font
@@ -5695,7 +5474,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6cae13c8-d8d2-46e1-bd11-4b4be4c9f9cb")
-		(property "Reference" "R10"
+		(property "Reference" "R1"
 			(at 31.75 40.64 90)
 			(effects
 				(font
@@ -5711,7 +5490,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 31.75 48.768 90)
 			(effects
 				(font
@@ -5747,7 +5526,7 @@
 		(instances
 			(project ""
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R10")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 31.242 168.91 90)
 			(effects
 				(font
@@ -5980,7 +5759,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 49.53 180.848 90)
 			(effects
 				(font
@@ -6253,15 +6032,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 153.67 54.61 90)
+		(at 153.67 54.61 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7d892d6f-a844-48a4-bcf2-e25dad151ea4")
-		(property "Reference" "R6"
+		(property "Reference" "R8"
 			(at 153.67 48.26 90)
 			(effects
 				(font
@@ -6277,7 +6056,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 153.67 56.388 90)
 			(effects
 				(font
@@ -6313,7 +6092,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R6")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -6412,7 +6191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 14.732 78.74 90)
 			(effects
 				(font
@@ -6482,7 +6261,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 207.01 0)
 			(effects
 				(font
@@ -6568,7 +6347,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 80.01 197.8152 0)
 			(effects
 				(font
@@ -6620,7 +6399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e2a039a-9eb2-4b49-a4b9-d049be0a9ca7")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 148.59 35.56 90)
 			(effects
 				(font
@@ -6636,7 +6415,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 148.59 43.688 90)
 			(effects
 				(font
@@ -6672,7 +6451,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -6770,7 +6549,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 68.58 198.628 90)
 			(effects
 				(font
@@ -7135,7 +6914,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 241.3 84.582 90)
 			(effects
 				(font
@@ -7187,7 +6966,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb5dda5f-64cd-4e21-b151-ea48cf2927a6")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 78.74 45.72 90)
 			(effects
 				(font
@@ -7203,7 +6982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 78.74 53.848 90)
 			(effects
 				(font
@@ -7239,7 +7018,7 @@
 		(instances
 			(project ""
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7387,7 +7166,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd9e7475-50ac-413a-8a3b-69f106922703")
-		(property "Reference" "R11"
+		(property "Reference" "R2"
 			(at 31.75 50.8 90)
 			(effects
 				(font
@@ -7403,7 +7182,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 31.75 58.928 90)
 			(effects
 				(font
@@ -7439,7 +7218,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R11")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7520,7 +7299,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c9714d-22a4-4d30-a322-3aeec8c361b7")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 19.05 102.8699 0)
 			(effects
 				(font
@@ -7538,7 +7317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 14.732 104.14 90)
 			(effects
 				(font
@@ -7574,7 +7353,7 @@
 		(instances
 			(project "EPICS elephant project"
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7655,7 +7434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de325617-dca3-4e46-ae8c-263c451a1bb2")
-		(property "Reference" "R2"
+		(property "Reference" "R7"
 			(at 137.16 48.26 90)
 			(effects
 				(font
@@ -7671,7 +7450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 137.16 56.388 90)
 			(effects
 				(font
@@ -7707,7 +7486,7 @@
 		(instances
 			(project ""
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R2")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -7741,7 +7520,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
 			(at 80.01 176.53 0)
 			(effects
 				(font
@@ -7942,7 +7721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f04aa3d1-f9b1-4f89-bb57-4a6f6dd6b8e5")
-		(property "Reference" "R5"
+		(property "Reference" "R4"
 			(at 20.32 90.1699 0)
 			(effects
 				(font
@@ -7960,7 +7739,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 14.732 91.44 90)
 			(effects
 				(font
@@ -7996,7 +7775,7 @@
 		(instances
 			(project ""
 				(path "/aa38759c-8a75-4359-9969-8027b1913b1f"
-					(reference "R5")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -8030,7 +7809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 57.912 208.28 90)
 			(effects
 				(font
