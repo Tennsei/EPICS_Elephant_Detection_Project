@@ -2461,16 +2461,6 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 49.53) (xy 231.14 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5adf80d-09e8-4637-99ad-72219a621fe7")
-	)
-	(wire
-		(pts
 			(xy 19.05 59.69) (xy 30.48 59.69)
 		)
 		(stroke
@@ -3494,7 +3484,7 @@
 				)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "70nF"
 			(at 320.04 82.55 90)
 			(effects
 				(font

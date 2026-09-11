@@ -1,0 +1,125 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "AD620ANZ" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -12.7 8.255 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "AD620ANZ" (id 1) (at -12.7 -10.16 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "AD620ANZ:DIP787W46P254L1016H533Q8" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "H" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Analog Devices" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "5.33mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "IPC-7351B" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "AD620ANZ_0_0"
+      (polyline
+        (pts (xy -5.08 7.62) (xy -5.08 -7.62)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -5.08 -7.62) (xy 2.54 -3.048)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 2.54 -3.048) (xy 7.62 0.0)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 7.62 0.0) (xy 0.0 4.572)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy 0.0 4.572) (xy -5.08 7.62)) (stroke (width 0.4064))
+      )
+      (polyline
+        (pts (xy -3.81 -4.445) (xy -3.81 -5.715)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.445 5.08) (xy -3.175 5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy -4.445 -5.08) (xy -3.175 -5.08)) (stroke (width 0.1524))
+      )
+      (polyline
+        (pts (xy 0.0 5.08) (xy 0.0 4.572)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 0.0 -5.08) (xy 0.0 -4.699)) (stroke (width 0.254))
+      )
+      (polyline
+        (pts (xy 2.54 -5.08) (xy 2.54 -3.048)) (stroke (width 0.254))
+      )
+      (pin power_in line (at 0.0 10.16 270.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -10.16 -2.54 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 2.54 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 -5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin input line (at -10.16 5.08 0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 0.0 -10.16 90.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 0.0 180.0) (length 5.08)
+        (name "~"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
